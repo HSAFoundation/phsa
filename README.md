@@ -19,7 +19,7 @@ to implement HSA support to a new platform:
 
 * [gccbrig](https://github.com/HSAFoundation/gccbrig) adds HSAIL input to gcc, thus providing BRIG/HSAIL finalization support for processors that have a gcc backend,
 * [phsa-runtime](https://github.com/HSAFoundation/phsa-runtime), a quick-and-dirty fork of the [HSA Runtime Reference Source](https://github.com/HSAFoundation/HSA-Runtime-Reference-Source) that can load the binary (ELF with a special metadata section) output from gccbrig and launch threads that load and execute kernels on the host CPU, and
-* [phsa-finalizer](https://github.com/HSAFoundation/phsail-finalizer) that implements the finalization API of the HSA runtime which enables calling gccbrig from phsa-runtime. It also implements several HSAIL builtins as functions.
+* [phsa-finalizer](https://github.com/HSAFoundation/phsa-finalizer) that implements the finalization API of the HSA runtime which enables calling gccbrig from phsa-runtime. It also implements several HSAIL builtins as functions.
 
 ## IRC channel
 
