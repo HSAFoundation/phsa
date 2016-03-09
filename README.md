@@ -1,7 +1,7 @@
 # Portable HSA (PHSA)
 
 PHSA is a project aiming to implement the Heterogeneous System Architecture
-standard. The goal is a high performance HSA implementation which is portable to
+standard's software parts (PRM and the runtime). The goal is a high performance HSA implementation which is portable to
 a variety of platforms. The supported Kernel agents also include non-GPU-style
 processors such as CPUs and DSPs.
 
