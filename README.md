@@ -8,10 +8,6 @@ processors such as CPUs and DSPs.
 This repository includes instructions for adapting and using the multiple
 software components that together form phsa.
 
-**Please note that PHSA is an unfinished in progress project and not
-yet suitable for wide spread use.** If you want to participate in the development,
-take a look at the TODOs in each of the components as listed below.
-
 ## Components
 
 phsa currently consists of two software components which can be used
